@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>个人简历展示 | 郝铭志</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", "Segoe UI", sans-serif;
+        }
+
+        body {
+            background: linear-gradient(180deg, #fff7ed, #ffedd5);
+            color: #333;
+            line-height: 2.1;
+        }
+
+        header {
+            background: linear-gradient(90deg, #fb7185, #f97316);
+            padding: 28px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #fff;
+        }
+
+        header h1 {
+            font-size: 32px;
+            letter-spacing: 2px;
+        }
+
+        nav a {
+            margin-left: 40px;
+            text-decoration: none;
+            color: #fff;
+            font-size: 21px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            opacity: 0.85;
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 90px auto;
+            padding: 0 40px;
+        }
+
+        section {
+            margin-bottom: 100px;
+        }
+
+        section h2 {
+            font-size: 34px;
+            margin-bottom: 45px;
+            color: #ea580c;
+            border-left: 10px solid #fb7185;
+            padding-left: 20px;
+        }
+
+        .info-box {
+            display: flex;
+            gap: 80px;
+            align-items: center;
+            background: #ffffff;
+            padding: 55px;
+            border-radius: 24px;
+            box-shadow: 0 22px 50px rgba(0,0,0,0.16);
+        }
+
+        .photo img {
+            width: 250px;
+            height: 330px;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+
+        .info-text p {
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background: #fff;
+            padding: 50px;
+            border-radius: 24px;
+            box-shadow: 0 22px 50px rgba(0,0,0,0.16);
+            margin-bottom: 50px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        .card h3 {
+            font-size: 28px;
+            margin-bottom: 22px;
+            color: #c2410c;
+        }
+
+        .card p {
+            font-size: 21px;
+            text-align: justify;
+            margin-bottom: 16px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 50px;
+            font-size: 16px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>个人简历展示网站</h1>
+    <nav>
+        <a href="#info">基本信息</a>
+        <a href="#experience">竞技与实践经历</a>
+        <a href="#award">获奖与成果</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <!-- 基本信息 -->
+    <section id="info">
+        <h2>基本信息</h2>
+        <div class="info-box">
+            <div class="photo">
+                <img src="7abdf69c9496d170a44c1498950868e5.jpg" alt="个人照片">
+            </div>
+            <div class="info-text">
+                <p>姓名：郝铭志</p>
+                <p>性别：男</p>
+                <p>专业：数据科学与大数据技术</p>
+                <p>学校：大连海洋大学</p>
+                <p>联系电话：13514553685</p>
+                <p>
+                    个人简介：本人注重理论与实践相结合，具备良好的学习能力和自我提升意识。
+                    在专业学习之外，积极参与竞技体育与实践活动，
+                    通过长期训练与比赛，不断提升自身专注力、执行力与抗压能力。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 经历 -->
+    <section id="experience">
+        <h2>竞技与实践经历</h2>
+
+        <div class="card">
+            <h3>中式台球高水平竞技参赛经历</h3>
+            <p>
+                在长期的中式台球训练与赛事参与过程中，系统接受了高强度竞技训练，
+                熟悉比赛节奏控制、攻防策略选择以及复杂局面下的决策处理。
+                多次参与规模较大的公开赛与邀请赛，
+                在比赛中能够保持良好的专注状态，
+                并在关键回合中合理分配风险与收益。
+            </p>
+            <p>
+                通过与高水平选手的多次交手，
+                不断修正自身技术细节，逐步形成稳定的个人竞技风格。
+                该阶段经历对个人心理素质、抗压能力和持续专注能力提升起到了重要作用。
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>竞技复盘与数据化分析实践</h3>
+            <p>
+                结合数据科学与大数据技术专业背景，
+                尝试将数据分析方法引入竞技复盘过程中。
+                通过对比赛击球成功率、失误类型、走位选择等数据进行整理和分析，
+                对个人竞技表现进行量化评估。
+            </p>
+            <p>
+                在实践中逐步掌握了将主观经验转化为客观数据指标的分析方法，
+                并据此制定更有针对性的训练计划，
+                有效提升了训练效率和竞技稳定性。
+            </p>
+        </div>
+
+    </section>
+
+    <!-- 获奖 -->
+    <section id="award">
+        <h2>获奖情况与成果</h2>
+
+        <div class="card">
+            <p>
+                在多项中式台球赛事中取得较为突出的竞技成绩，
+                曾在大型公开赛中战胜多名经验丰富的职业选手，
+                以稳定发挥成功晋级淘汰赛阶段。
+                相关比赛表现获得业内人士与观众的积极评价。
+            </p>
+            <p>
+                通过持续训练与比赛积累，
+                在技术执行力、线路判断与比赛节奏控制方面取得明显进步，
+                多次在关键比赛中发挥稳定，展现出良好的竞技状态。
+            </p>
+        </div>
+
+        <div class="card">
+            <p>
+                在学习与实践过程中，注重将竞技经验转化为个人成长动力。
+                通过总结比赛得失，持续优化训练方法，
+                逐步形成系统化的能力提升路径，
+                为今后的专业学习与实践发展奠定了坚实基础。
+            </p>
+        </div>
+
+    </section>
+
+</div>
+
+<footer>
+    © 郝铭志
+</footer>
+
+</body>
+</html>
